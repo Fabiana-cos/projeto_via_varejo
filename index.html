@@ -7,7 +7,7 @@
     </head>
 
     <body class="corpo">
-        <!-- CABEÇALHO PRINCIPAL -->
+                <!-- CABEÇALHO PRINCIPAL -->
         <header class="cabecalho">
 
             <img class="imagem" src= "assets/img/Logo.png" />
@@ -26,12 +26,42 @@
                 <p class="limpar">
                     Limpar dados
                 </p>
-               
             </div>
         </header>
 
+        <!-- TRANSAÇÃO -->
+            <div class="retangulo">
+                
+                <p class="transacao">Nova transação</p>
+                <p class="tipo_transacao"> Tipo de transação </p>
+
+                <form>
+                        <select id="compra" name="compra">
+                        <option value="co">Compra</option>
+                        </select>
+                </form>
+        
+                <p id="novamercadoria">Nome da mercadoria</p>
+                <input class="novamercadoria" type="text"></input>
+
+                <p id="valor">Valor</p>
+                <input class="valorcaixa" type="text"></input>
+
+                <button id="botãoadicionar">
+                    <div class="botãoadicionar">Adicionar transação</div>
+                </button>
+
+            </div>
 
 
+
+
+        <!-- EXTRATO -->
+            <div class= "retangulo2">
+                <p>
+                    Extrato de Transações
+                </p>
+            </div>
 
 
 

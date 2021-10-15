@@ -3,6 +3,7 @@ body {position: relative;
     height: 1000px;
     background: #FFFFFF;
     margin: auto;
+    font-family: 'Lato', sans-serif;
 }
 
 header {position: absolute;
@@ -18,7 +19,7 @@ img {position: absolute;
     height: 36.84px;
     left: 200px;
     top: 22px;
-    border: 2px solid #333333;
+    border: 0px solid #333333;
 }
 
 .controle {position: absolute;
@@ -45,6 +46,7 @@ img {position: absolute;
     left: 950px;
     bottom: 20px;
     background: #FFFFFF;
+    font-family: 'Lato', sans-serif;
 }
 
 .cadastro {position: absolute;
@@ -86,4 +88,160 @@ img {position: absolute;
     bottom: 10px;
     border: 1px solid #979797;
     transform: rotate(90deg);    
+}
+
+.retangulo{
+    position: absolute;
+    width: 400px;
+    height: 344px;
+    left: calc(50% - 1500px/2);
+    top: calc(30% - 344px/2);
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-sizing: border-box;
+    border-radius: 4px;
+    left: calc(27% - 400px/2);
+}
+
+.retangulo2{
+    position: absolute;
+    width: 680px;
+    height: 281px;
+    left: 620px;
+    top: calc(30% - 344px/2);
+    background:#FFFFFF;
+    font-family: 'Lato', sans-serif;
+} 
+
+.transacao{    
+    position: absolute;
+    width: 174px;
+    height: 20px;
+    left: calc(50% - 174px/2);
+    top: calc(50% - 20px/2 - 158px);
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.tipo_transacao{
+    position: absolute;
+    left: 14.9px;
+    right: 14.9px;
+    top: 61px;
+    bottom: 61.01%;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
+}
+
+#compra{
+    position: absolute;
+    height: 32px;
+    left: 14.9px;
+    right: 14.9px;
+    top: 105px;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width:370.2px;
+    color: #888888;
+
+
+
+
+}
+
+#novamercadoria{
+    position: absolute;
+    left: 14.9px;
+    right: 14.9px;
+    top: 138px;
+    bottom: 183.65px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
+}
+
+.novamercadoria{
+    position: absolute;
+    height: 32px;
+    left: 14.9px;
+    right: 14.9px;
+    top: 180px;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 370px;
+    bottom: 150px;
+}
+
+#valor{
+    position: absolute;
+    left: 14.9px;
+    right: 14.9px;
+    top: 209px;
+    bottom: 60.78%;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
+}
+
+.valorcaixa{
+    position: absolute;
+    height: 32px;
+    left: 14.9px;
+    right: 14.9px;
+    top: 250px;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 370px;
+}
+
+#botãoadicionar{
+    position: absolute;
+    left: 14.9px;
+    right: 15.1px;
+    top: 300px;
+    background: #333333;
+    border-radius: 4px;
+    width: 370px;
+    height: 32px;
+    bottom: 20.22px;
+}
+
+.botãoadicionar{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 8%;
+    bottom: 0%;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    display: 157%;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    width: 370px;
+    height: 32px;
 }
